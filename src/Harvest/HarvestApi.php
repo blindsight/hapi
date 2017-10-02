@@ -229,7 +229,7 @@ use Harvest\Model\Invoice\Filter;
     {
         $url = "daily?of_user=" . $user_id;
   
-        if($onlyTimeEntries) {
+        if ($onlyTimeEntries) {
             $url .= "&slim=1";
         }
   
